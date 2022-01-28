@@ -106,7 +106,7 @@
     margin: 0 2rem;
     border-radius: 2px;
     border: 1px solid #FFFF;
-    box-shadow: 1px 2px 5px #c4c4c4;
+    box-shadow: 1px 2px 2px #f0f0f0;
     }
 
 .page-1 .slogan .cards .card i {
@@ -135,14 +135,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .page-2 .card {
     text-align: center;
     background-color: #FFFF;
-    color: black;
     padding: 1.2rem;
     margin: 0 2rem;
     border-radius: 2px;
+}
+
+.page-2 .card h3 {
+    font-size: 1.1rem;
+}
+
+.page-2 .card p {
+    font-weight: 200;
+}
+
+.page-2 .card i {
+    color: #3498DB;
+    font-size: 4rem;
+    margin-bottom: 1rem;
 }
