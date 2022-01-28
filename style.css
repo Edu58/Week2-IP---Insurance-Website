@@ -1,5 +1,5 @@
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -45,7 +45,7 @@
 
 .page-1 header .login button {
     margin: .2rem 0 0 1.5rem;
-    background-color: #3498DB ;
+    background-color: #23A6F0;
     border-radius: 2px;
     padding: .6rem;
     color: #FFFF;
@@ -67,8 +67,9 @@
 }
 
 .page-1 .slogan .h1-text {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 900;
+    margin-bottom: 1rem;
 }
 
 .page-1 .slogan .slogan-buttons button {
@@ -81,7 +82,7 @@
 }
 
 .page-1 .slogan .slogan-buttons button:nth-child(1) {
-    background-color: #3498DB;
+    background-color: #23A6F0;
 }
 
 .page-1 .slogan .slogan-buttons button:nth-child(2) {
@@ -102,7 +103,7 @@
     text-align: center;
     background-color: #FFFF;
     color: black;
-    padding: 1.2rem;
+    padding: 2rem 1rem;
     margin: 0 2rem;
     border-radius: 2px;
     border: 1px solid #FFFF;
@@ -110,16 +111,16 @@
     }
 
 .page-1 .slogan .cards .card i {
-    font-size: 2.5rem;
-    margin-bottom: .5rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .page-1 .slogan .cards .card i:nth-child(1), .page-1 .slogan .cards .card i:nth-child(2) {
-    color: #3498DB;
+    color: #23A6F0;
 }
 
 .page-1 .slogan .cards .card:nth-child(3) {
-    border: 1px solid #3498DB;
+    border: 1px solid #23A6F0;
     box-shadow: 1px 2px 5px #c4c4c4;
     background-color: #3498DB;
     color: #FFFF;
@@ -136,6 +137,7 @@
     justify-content: center;
     align-items: center;
     min-height: 90vh;
+    margin: 0 2rem;
 }
 
 .page-2 .card {
@@ -148,6 +150,7 @@
 
 .page-2 .card h3 {
     font-size: 1.1rem;
+    margin-bottom: 1rem;
 }
 
 .page-2 .card p {
@@ -158,4 +161,21 @@
     color: #3498DB;
     font-size: 4rem;
     margin-bottom: 1rem;
+}
+
+.page-3 {
+    background-color: #f5f5f585;
+    min-height: 100vh;
+}
+
+.page-3 .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.page-3 .header h1 {
+    font-size: 2rem;
+    margin: 4rem 0 1rem 0;
 }
