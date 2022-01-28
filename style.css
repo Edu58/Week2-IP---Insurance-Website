@@ -16,7 +16,6 @@
     background-position: center;
     min-height: 90vh;
     width: 100%;
-    padding: .2rem 0;
 }
 
 .page-1 header {
@@ -24,6 +23,8 @@
     justify-content: space-around;
     align-items: center;
     color: #FFFF;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.466);
 }
 
 .page-1 header .navlinks ul {
@@ -49,4 +50,41 @@
     padding: .6rem;
     color: #FFFF;
     border: none;
+}
+
+/* Slogan */
+
+.page-1 .slogan {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+    color: #FFFF;
+    text-align: center;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.page-1 .slogan .h1-text {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.page-1 .slogan .slogan-buttons button {
+    margin: 2rem .5rem;
+    border: none;
+    padding: 1rem 1.5rem;
+    color: #FFFF;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+.page-1 .slogan .slogan-buttons button:nth-child(1) {
+    background-color: #3498DB;
+}
+
+.page-1 .slogan .slogan-buttons button:nth-child(2) {
+    background: transparent;
+    border: 1px solid #FFFF;
 }
