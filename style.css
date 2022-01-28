@@ -420,7 +420,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 40rem;
 }
 
 .form form {
@@ -428,13 +427,14 @@ img {
   justify-content: center;
   background-color: #ffff;
   color: #000;
-  border-radius: 5px;
+  border-radius: 2px;
   position: absolute;
+  width: auto;
+  margin: 5rem 0;
 }
 
 .form form img {
     max-height: 30rem;
-    width: 20rem;
 }
 
 .form form .form-fields {
@@ -454,7 +454,7 @@ img {
   margin-bottom: 0.5rem;
 }
 
-.form form .form-fields input {
+.form form .form-fields input, #choice {
   padding: 1rem;
   border: 1px solid #c4c4c4;
   border-radius: 5px;
@@ -470,4 +470,29 @@ img {
   padding: 1rem 0;
   border-radius: 5px;
   margin-top: 1rem;
+}
+
+
+.consult {
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    min-height: 70vh;
+    background-color:#f0f0f085;
+}
+
+.consult .consulting {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.consult .consulting button {
+    margin-left: 10rem;
+    background-color: #23a6f0;
+    color: #FFFF;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
 }
