@@ -216,3 +216,52 @@
     margin-top: 1rem;
     color: orange;
 }
+
+/* Page 4 (Trustees) */
+.page-4 {
+    background-color: #f5f5f598;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-4 .trustees-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page-4 .trustees-logos img {
+    height: 2rem;
+    width: auto;
+}
+
+.page-4 .subscribe {
+    margin: auto;
+    width: 80%;
+    padding: 2rem;
+    border-radius: 2px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,116,255,1) 0%, rgba(212,14,201,1) 68%);
+}
+
+.page-4 .subscribe .container {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFF;
+    align-items: center;
+}
+
+.page-4 .subscribe .container .input input {
+    padding: 1rem;
+    border-radius: 10px 0 0 10px;
+    border: none;
+}
+
+.page-4 .subscribe .container .input button {
+    padding: 1rem;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background-color: #23A6F0;
+    color: #FFFF;
+}
