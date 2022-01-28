@@ -372,3 +372,34 @@
     background-color: #23A6F0;
     color: #FFFF;
 }
+
+/* Page 4 - Booking section */
+.booking {
+    background-color: #252B42;
+    margin-top: 4rem;
+    min-height: 80vh;
+    color: #FFFF;
+}
+
+.booking .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.booking .container .text, img {
+    margin-top: 5rem;
+}
+
+.booking .container .text {
+    width: 40%;
+}
+
+.booking .container .text h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.booking .container img {
+    width: 30%;
+}
