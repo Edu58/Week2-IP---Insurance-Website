@@ -1,0 +1,52 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Page 1 */
+.page-1 {
+    background-image: url("/images/hero-cover.3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    width: 100%;
+    padding: .2rem 0;
+}
+
+.page-1 header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFF;
+}
+
+.page-1 header .navlinks ul {
+    display: flex;
+    align-items: center;
+}
+
+.page-1 header .navlinks ul li, .page-1 header .login button i {
+    margin: 0 1rem;
+    font-weight: 600;
+}
+
+.page-1 header .login {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.page-1 header .login button {
+    margin-left: 1.5rem;
+    background-color: #3498DB ;
+    border-radius: 2px;
+    padding: .6rem;
+    color: #FFFF;
+    border: none;
+}
