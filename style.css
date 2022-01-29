@@ -44,6 +44,10 @@
   font-weight: 600;
 }
 
+.page-1 header .mobile-icons {
+  display: none;
+}
+
 .page-1 header .login button {
   margin: 0.2rem 0 0 1.5rem;
   background-color: #23a6f0;
@@ -132,7 +136,66 @@
   color: #ffff;
 }
 
-/* page 3 */
+/* Page 1 media queries */
+
+@media only screen and (max-width: 768px) {
+
+  .page-1 header {
+    align-items: flex-start;
+    min-height: 50vh;
+    background-color: #bbbbbb;
+    padding-top: 2rem;
+  }
+
+  .page-1 header .navlinks ul {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .page-1 header .navlinks ul li {
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .page-1 header .login {
+    display: none;
+  }
+
+  .page-1 header .mobile-icons {
+    display: block;
+}
+
+.page-1 header .mobile-icons i {
+  margin-left: 2rem;
+  font-size: 1.3rem;
+}
+
+  .page-1 .slogan {
+    margin-bottom: 5rem;
+  }
+
+  .page-1 .slogan .slogan-buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 4rem;
+  }
+
+  .page-1 .slogan .slogan-buttons button {
+    margin: 1rem 0;
+  }
+
+  .page-1 .slogan .cards {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .page-1 .slogan .cards .card {
+    margin: 1rem 0;
+  }
+}
+
+/* page 2 */
 
 .page-2 {
   display: flex;
@@ -163,6 +226,10 @@
   color: #3498db;
   font-size: 4rem;
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-widt: 768px) {
+  
 }
 
 /* Page 3 (Reviews) */
