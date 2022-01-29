@@ -1,6 +1,7 @@
 ## Project - Insurance Website Template
 ## Author: Edwin Karimi
 ## Technologies Used: HTML5 & CSS3
+## Live link - [Insurance Website](https://edu58.github.io/Week2-IP---Insurance-Website/)
 
 ![screenshot](images/readme-img.png)
 
