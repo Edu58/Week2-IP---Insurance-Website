@@ -228,8 +228,14 @@
   margin-bottom: 1rem;
 }
 
-@media only screen and (max-widt: 768px) {
-  
+@media only screen and (max-width: 768px) {
+  .page-2 {
+    flex-direction: column;
+  }
+
+  .page-2 .card {
+    margin: 3rem 0;
+  }
 }
 
 /* Page 3 (Reviews) */
@@ -286,6 +292,12 @@
   color: orange;
 }
 
+@media only screen and (max-width: 768px) {
+  .page-3 .reviews {
+    flex-direction: column;
+  }
+}
+
 /* Page 4 (Trustees) */
 .page-4 {
   background-color: #f5f5f598;
@@ -338,6 +350,25 @@
   border: none;
   background-color: #23a6f0;
   color: #ffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-4 {
+    margin-bottom: 2rem;
+  }
+
+  .page-4 .trustees-logos {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .page-4 .subscribe .container {
+    flex-direction: column;
+  }
+
+  .page-4 .subscribe .container .input {
+    margin-top: 2rem;
+  }
 }
 
 /* Page 4 - Pricing */
@@ -445,6 +476,16 @@
   border-radius: 5px;
   background-color: #23a6f0;
   color: #ffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .pricing .price-cards {
+    flex-direction: column;
+  }
+
+  .pricing .price-cards .card {
+    margin: 2rem 0;
+  }
 }
 
 /* Page 4 - Booking section */
