@@ -521,6 +521,13 @@ img {
   width: 30%;
 }
 
+/* Booki media queries */
+@media only screen and (max-width: 768px) {
+  .booking .container {
+    flex-direction: column;
+  }
+}
+
 /* Booking Form */
 
 .form {
@@ -580,6 +587,19 @@ img {
   margin-top: 1rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .form {
+    position: relative;
+    display: contents;
+    margin-top: 0;
+  }
+
+  .form form {
+    height: 10rem;
+    width: auto;
+    margin: auto;
+  }
+}
 
 .consult {
     display: flex;
@@ -603,6 +623,17 @@ img {
     border: none;
     padding: 1rem 2rem;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .consult {
+    min-height: 100vh;
+  }
+
+  .consult .consulting {
+    margin-top: 40rem;
+    margin-bottom: 5rem;
+  }
 }
 
 /* Footer */
