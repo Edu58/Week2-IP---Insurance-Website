@@ -633,6 +633,12 @@ img {
   .consult .consulting {
     margin-top: 40rem;
     margin-bottom: 5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .consult .consulting button {
+    margin-top: 2rem;
   }
 }
 
