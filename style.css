@@ -674,3 +674,26 @@ footer .made .socials i {
     margin: 0 1rem;
     color:#23a6f0 ;
 }
+
+/* Footer media queries */
+
+@media only screen and (max-width: 768px) {
+  footer .row {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  footer .row .columns {
+    margin: 2rem 0;
+  }
+
+  footer .made {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .made .socials {
+    margin-top: 2rem;
+  }
+}
